@@ -153,4 +153,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-core</artifactId>
+				<version>9.0.99</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
